@@ -1,6 +1,6 @@
 package com.example.getmehired_tasks;
 
- public abstract class Assignment3 {
+  public class Assignment3 {
      double hight;
      double width;
      double area;
