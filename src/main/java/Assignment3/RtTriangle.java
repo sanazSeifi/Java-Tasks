@@ -5,8 +5,8 @@ public class RtTriangle extends ShapClass{
     double height;
     double width;
 
-    public RtTriangle(int numSide) {
-        super(numSide);
+    public RtTriangle(double width, double height) {
+        super(3);
         this.width = width;
         this.height = height;
     }

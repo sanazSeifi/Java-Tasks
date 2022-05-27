@@ -1,14 +1,19 @@
 package Assignment3;
 
 public class Rectangle extends ShapClass{
-    double height;
-    double width;
+   double height;
+  double width;
+    int numSide;
 
-    public Rectangle(int numSide) {
-        super(numSide);
+    public Rectangle(double width, double height) {
+        super(4);
         this.width = width;
         this.height = height;
     }
+
+//    public Rectangle() {
+//        super(numSide);
+//    }
 
     @Override
     public double getArea() {
