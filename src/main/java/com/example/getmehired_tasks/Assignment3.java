@@ -1,10 +1,10 @@
 package com.example.getmehired_tasks;
 
   public class Assignment3 {
-     double hight;
-     double width;
-     double area;
-     double primeter;
+    private double hight;
+    private double width;
+   private double area;
+   private double primeter;
 
     // Hight
      public void setHeight(double ht){
