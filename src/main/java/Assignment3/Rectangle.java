@@ -6,6 +6,8 @@ public class Rectangle extends ShapClass{
 
     public Rectangle(int numSide) {
         super(numSide);
+        this.width = width;
+        this.height = height;
     }
 
     @Override
