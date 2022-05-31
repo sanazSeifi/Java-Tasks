@@ -2,7 +2,7 @@ package Assignment4;
 
 public class CarClass {
     public static String carName;
-    public static char engin;
+    public static char engine;
     public static int wheels;
     public static int doors;
 
@@ -12,12 +12,26 @@ public class CarClass {
        this.wheels = wheels;
     }
 
+    public CarClass() {
+        
+    }
+
+    public CarClass( int doors, String carName, int wheels, String engine) {
+    }
+
+    public CarClass(String carName, int doors, int model, int engine) {
+    }
+
+//    public CarClass(String carName, int doors, String engine) {
+//        
+//    }
+
     public static String getCarName() {
         return carName;
     }
 
     public static char getEngin() {
-        return engin;
+        return engine;
     }
 
     public static void setCarName(String carName) {
@@ -25,7 +39,7 @@ public class CarClass {
     }
 
     public static void setEngin(char engin) {
-        CarClass.engin = engin;
+        CarClass.engine = engin;
     }
 
     public static void setWheels(int wheels) {
@@ -53,7 +67,24 @@ public class CarClass {
     } public void oilChange () {
         System.out.println("Change oil");
     }
+
+    public char setEngine(String engine) {
+        return this.engine;
+    }
+
+    public void setEngine() {
+    }
+
+    protected String getName() {
+        return  this.carName;
+    }
+
+    public void brake(int i) {
+    }
 }
 
 
+
+//a: when we extend the child object to CarClass it makes child object inheritance CarClass
+//b:
 
