@@ -2,35 +2,38 @@ package Assignment4;
 
 public class CarClass {
     public static String carName;
-    public static char engine;
+    public static int engine;
     public static int wheels;
     public static int doors;
+    public  static int model;
 
     CarClass(int doors, String carName, int wheels){
        this.doors = doors;
-       this.carName =carName;
-       this.wheels = wheels;
+       this.carName = "Car";
+       this.model= 4;
+       this.wheels = 4;
     }
 
     public CarClass() {
+        wheels =4;
+        carName = "Car";
+        doors = 4;
+        engine = 4;
         
     }
 
-    public CarClass( int doors, String carName, int wheels, String engine) {
-    }
-
     public CarClass(String carName, int doors, int model, int engine) {
+        this.carName = carName;
+        this.doors = doors;
+        this.model = model;
+        this.engine = engine;
     }
-
-//    public CarClass(String carName, int doors, String engine) {
-//        
-//    }
 
     public static String getCarName() {
         return carName;
     }
 
-    public static char getEngin() {
+    public static int getEngin() {
         return engine;
     }
 
@@ -68,7 +71,7 @@ public class CarClass {
         System.out.println("Change oil");
     }
 
-    public char setEngine(String engine) {
+    public int setEngine(String engine) {
         return this.engine;
     }
 

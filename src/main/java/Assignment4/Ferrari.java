@@ -3,20 +3,22 @@ package Assignment4;
 public class Ferrari extends CarClass {
     public int doors;
     public int wheels;
-    public int engine;
+
 
     public Ferrari(){
         super();
-        System.out.println("This Car contain " + super.getDoors() + " Doors and " + super.getWheels() + " Wheels." );
+        System.out.println("This Car contain " + super.getDoors() + " Doors."  );
     }
+    public Ferrari(int doors, int wheels) {
 
-    public Ferrari( int doors, String carName, int wheels,String engine){
-        super( doors,carName, wheels,engine);
-        this.doors =doors;
-        this.carName = carName;
+        this.doors = doors;
         this.wheels = wheels;
     }
 
-    public Ferrari(int doors, CarClass ferrari, int wheels, int i) {
+
+
+    public void startEngine(String name){
+        System.out.println("The " + super.getName() + " is so beautiful.");
     }
+
 }

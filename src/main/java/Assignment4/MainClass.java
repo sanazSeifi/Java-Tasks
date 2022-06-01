@@ -5,7 +5,7 @@ public class MainClass {
 
     public static void main(String[] args){
         CarClass ferrari = new Ferrari();
-        CarClass Ferrari2 = new Ferrari(4,ferrari,4, 5);
+        CarClass Ferrari2 = new Ferrari(4,4);
         System.out.println("I am ferrari");
         ferrari.setEngine("engine");
         ferrari.startEngine();
@@ -25,11 +25,6 @@ public class MainClass {
         Linkoln linkoln1 = new Linkoln(corsair,4,45,3);
         linkoln1.accelerate(200);
         System.out.println(linkoln1.getName());
-
-
-
-
-
 
     }
 
