@@ -1,6 +1,8 @@
 package Assignment4;
 
 public class MainClass {
+    public static String corsair;
+
     public static void main(String[] args){
         CarClass ferrari = new Ferrari();
         CarClass Ferrari2 = new Ferrari(4,ferrari,4, 5);
@@ -20,7 +22,7 @@ public class MainClass {
         CarClass linkoln = new Linkoln();
         linkoln.brake();
         linkoln.oilChange();
-        Linkoln linkoln1 = new Linkoln(linkoln,4,45,3);
+        Linkoln linkoln1 = new Linkoln(corsair,4,45,3);
         linkoln1.accelerate(200);
         System.out.println(linkoln1.getName());
 

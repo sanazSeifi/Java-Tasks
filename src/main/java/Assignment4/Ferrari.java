@@ -16,4 +16,7 @@ public class Ferrari extends CarClass {
         this.carName = carName;
         this.wheels = wheels;
     }
+
+    public Ferrari(int doors, CarClass ferrari, int wheels, int i) {
+    }
 }
