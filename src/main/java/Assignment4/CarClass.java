@@ -11,9 +11,7 @@ public class CarClass {
        this.carName =carName;
        this.wheels = wheels;
     }
-
     public CarClass() {
-        
     }
 
     public CarClass( int doors, String carName, int wheels, String engine) {

@@ -11,6 +11,10 @@ public class Linkoln extends CarClass{
         super(carName,doors,model,engine);
         this.wheels = wheels;
     }
+
+    public Linkoln(CarClass linkoln, int doors, int model, int engine) {
+    }
+
     public  void brake(){
         System.out.println(" Brake the Car");
     }
