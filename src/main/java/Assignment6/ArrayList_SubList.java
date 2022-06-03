@@ -12,8 +12,9 @@ public class ArrayList_SubList {
         arrayList.add("John");
         arrayList.add("Arnold");
         arrayList.add("Chaitanya");
-        System.out.println("ArrayList is: " + arrayList);
+        System.out.println("ArrayList is: " + arrayList + "\n");
 
-
+        List<String> subList = arrayList.subList(1,4);
+        System.out.println("Sublist is: " + subList + "\n");
     }
 }
