@@ -4,7 +4,7 @@ import java.util.TreeMap;
 
 public class Reverse_Tree_Map {
     public static void main(String[] args){
-        TreeMap treeMap = new TreeMap<>();
+        TreeMap treeMap = new TreeMap();
         treeMap.put(1, "Jack");
         treeMap.put(2, "Rick");
         treeMap.put(3, "Kate");
