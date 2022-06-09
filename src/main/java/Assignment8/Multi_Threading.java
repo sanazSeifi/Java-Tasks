@@ -2,7 +2,8 @@ package Assignment8;
 
 public class Multi_Threading {
     /*
-    * 1- Thread is small portion of process and that's why we call that light-weight process. It is basic unit of CPU Utilization.
+    * 1- Compare process vs thread. Why we should use thread?
+    * Thread is small portion of process and that's why we call that light-weight process. It is basic unit of CPU Utilization.
     * Each program associate 1 or more processes and each process may execute 1 or more Threads(Traditional Thread and multiple Thread.
     * different between Process and Thread:
     * context switch is more heavy in process than Thread.
@@ -13,6 +14,19 @@ public class Multi_Threading {
     * Processes get more time for creation and termination but threads less time.
     * We use Thread because (Multi-Thread) to perform more than one task at a time.
     *
-    * 2-
+    * 2- How  do you implement thread and when to use what approach?
+    * There is 2 main way: first is Extend Thread Class and second is using implement Runnable Interface.
+    * If we need to extend another class or subclass we better use Implement Runnable Interface instead of extend Thread.
+    *
+    * 3- What is the difference between start() vs run()? Can we call run() method of a thread class?
+    * In Start() method the threads can implement at the same time but in run() method the threads
+    * should implement one by one, when the first thread implementing the other should wait for that and implement step by step.
+    *
+    * 4- Compare wait() vs sleep():
+    * Wait() method release the lock but Sleep method doesn't.
+    * wait() is the method of object class but the Sleep() is java.lang.thread.
+    * Wait() should be notified by notify() or notifyAll() method but SLeep() is complete after a specific time.
+    * Wait() is non static method but sleep() is a static method.
+    *
     * */
 }
