@@ -28,5 +28,6 @@ public class Multi_Threading {
     * Wait() should be notified by notify() or notifyAll() method but SLeep() is complete after a specific time.
     * Wait() is non static method but sleep() is a static method.
     *
+    * 5- with 3 method, 2 to 3 threads can communicate with each other: wait(), notify() and notifyAll()
     * */
 }
